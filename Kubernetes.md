@@ -35,14 +35,27 @@ The mapping between persistentVolume and persistentVolumeClaim is always one to 
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-name: mypv
+  name: mysqlvol
 spec:
-capacity:
-storage: 5Gi
-volumeMode: Filesystem
-accessModes:
-- ReadWriteOnce
-persistentVolumeReclaimPolicy: Retain
+  storageClassName: manual
+  capacity:
+    storage: 10Gi #Size of the volume
+  accessModes:
+    - ReadWriteOnce #type of access
+  hostPath:
+    path: "/mnt/data" #host location
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mypv
+spec:
+  capacity:
+    storage: 5Gi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
 ```
 ## 4.What kind of object do you create, when your dashboard like application, queries the Kubernetes API to get some data?
 You should be creating serviceAccount. A service account creates a token and tokens are stored inside a secret object. By default Kubernetes automatically mounts the default service account. However, we can disable this property by setting automountServiceAccountToken: false in our spec. Also, note each namespace will have a service account

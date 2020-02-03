@@ -29,7 +29,7 @@ Applications along with its dependencies are packaged into the containers which 
 
 
 |Sl No: | Virtual Machine | Containers|
-|-------|:-----------------|:------------|
+|-------|-----------------|------------|
 |1.| A virtualization technique where each VM has an individual operating system. |A virtualization technique where all containers share a host operating system.|
 |2.| Virtual machines are isolated at the hardware level |Each container is isolated at the operating system level.|
 |3.| Virtual machines take time to create |Containers are created fast |

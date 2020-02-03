@@ -27,6 +27,7 @@ Applications along with its dependencies are packaged into the containers which 
 
 ### 3. Tell me the differences between virtual machines and containers?
 
+```sh
 
 |Sl No: | Virtual Machine | Containers|
 |-------|-----------------|------------|
@@ -41,6 +42,8 @@ Applications along with its dependencies are packaged into the containers which 
 |9.|Higher Cost |Less costly compared to VM’s|
 |10.| More effort required to make VM’s versionable.|Easily Versionable|
 |11.| The marketplace in VM’s are segmented and not well known as Docker Hub |Availability of a central, trusted  marketplace where we can pull the images for the containers|
+
+```
 
 ### 4. What is Docker?
 

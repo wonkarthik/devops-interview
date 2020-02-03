@@ -30,37 +30,17 @@ Applications along with its dependencies are packaged into the containers which 
 
 |Sl No: | Virtual Machine | Containers|
 |-------|:-----------------:|------------:|
-|1. | A virtualization technique where each VM has an individual operating system. |A virtualization technique where all containers share a host operating system.|
-2.
-Virtual machines are isolated at the hardware level
-Each container is isolated at the operating system level.
-3.
-Virtual machines take time to create
-Containers are created fast
-4.
-Increased management overhead
-Decreased management overhead as only one host operating system needs to be cared for.
-5.
-Takes minutes to boot up
-Boots up in seconds
-6.
-Full isolation of VM’s  thus providing high security
-Decreased security compared to VM’s
-7.
-VM’s are huge as it has the overhead of the separate OS
-Lightweight as multiple containers share the same host operating system.
-8.
-VM’s are mostly application-centric as making it service-centric is not a cost viable option.
-Containers can be designed to be service-centric i.e a container for every microservice. Hence it is highly customizable for the performance of that particular microservices. Service-centric is the capability to configure a single service to run in a single container.
-9.
-Higher Cost
-Less costly compared to VM’s
-10.
-More effort required to make VM’s versionable.
-Easily Versionable
-11.
-The marketplace in VM’s are segmented and not well known as Docker Hub
-Availability of a central, trusted  marketplace where we can pull the images for the containers
+|1.| A virtualization technique where each VM has an individual operating system. |A virtualization technique where all containers share a host operating system.|
+|2.| Virtual machines are isolated at the hardware level |Each container is isolated at the operating system level.|
+|3.| Virtual machines take time to create |Containers are created fast |
+|4.| Increased management overhead | Decreased management overhead as only one host operating system needs to be cared for.|
+|5.| Takes minutes to boot up |Boots up in seconds |
+|6.| Full isolation of VM’s  thus providing high security |Decreased security compared to VM’s|
+|7.| VM’s are huge as it has the overhead of the separate OS |Lightweight as multiple containers share the same host operating system.
+|8.|VM’s are mostly application-centric as making it service-centric is not a cost viable option. |Containers can be designed to be service-centric i.e a container for every microservice. Hence it is highly customizable for the performance of that particular microservices. Service-centric is the capability to configure a single service to run in a single container.|
+|9.|Higher Cost |Less costly compared to VM’s|
+|10.| More effort required to make VM’s versionable.|Easily Versionable|
+|11.| The marketplace in VM’s are segmented and not well known as Docker Hub |Availability of a central, trusted  marketplace where we can pull the images for the containers|
 
 ### 4. What is Docker?
 

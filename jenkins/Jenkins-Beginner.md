@@ -65,4 +65,4 @@ Jenkins is an open source automation server written in Java. As an extensible au
 
 Continuous delivery (CD ) is a product design methodology in which team software in short cycles, guaranteeing that the product can be dependably released whenever and, when releasing the product, doing as such manually. It goes for building, testing, and releasing programming with more prominent speed and recurrence. The methodology lessens the cost, time, and risk of conveying changes by considering progressively gradual updates to applications underway. A direct and repeatable arrangement procedure is significant for continuous delivery. CD stands out from continuous deployment, a comparable methodology where software is likewise delivered in short cycles yet through automatic arrangements as opposed to manual ones. The flowchart beneath demonstrates the Continuous Delivery Workflow. Hope it will be much easier to understand with visuals.
 
-![](./jenkins/img/How-can-you-define-continuous-delivery-workflow.jpg)
+![](./img/How-can-you-define-continuous-delivery-workflow.jpg)

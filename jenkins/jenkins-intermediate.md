@@ -14,12 +14,13 @@ Continuous Integration has numerous advantages:
 * Fabricate a strong establishment
 * Quit holding on to see whether your code's getting down to business
 * Diminish incorporation issues enabling you to convey programming all the more quickly
-![](./img/2.PNG)
 ```
+![](./img/2.PNG)
+
 ## 3. Name some popular  CI Tools.
 
 Here is a rundown of the main 8 Continuous Integration tools:
-```sh
+
 `Jenkins`: Jenkins is an open-source CI tool written in Java.
 `TeamCity:` TeamCity is the full-grown CI server, originating from the labs of the JetBrains organization. Incredible arrangement by and large, however because of its intricacy and value, more qualified for big business needs.
 `Travis CI:` A Mature arrangement that offers both facilitated and On-premises variations, cherished and utilized by numerous groups, very much reported.
@@ -28,10 +29,10 @@ Here is a rundown of the main 8 Continuous Integration tools:
 `GitLab CI:` GitLab CI is a fundamental piece of the open-source Rails venture GitLab, which was exposed by the organization GitLab inc
 `CircleCI:` Another cloud elective that originates from the organization with a similar name. CircleCI as of now just backings GitHub and the rundown of upheld dialects incorporates Java, Ruby/Rails, Python, Node.js, PHP, Haskell, and Scala.
 `Codeship:` Codeship comes in two unique variants: Basic and Pro. The fundamental form offers out-of-the-container Continuous Integration administration yet doesn't have docker backing and its principal intention is to construct applications with normal work processes through the UI. Star form offers greater adaptability and docker support.
-```
+
 ## 4. Which SCM tools Jenkins supports?
 SCM stands for Source Code Management is an integral part of any development project in the current IT world. It is very critical to manage source code in an efficient way. There are several SCM tools which are available. Some advantages of using SCM:
-```sh
+
 `Backups:` Always accept that your PC is going to be sucked into a monstrosity dark opening at any second and work to limit the misfortune from that. Source control enables you to effortlessly push finished work to a remote host so little work is lost with a solitary PC.
 `Record of work:` On numerous ventures, there's intermittently when you need to return the code to a past state to perceive how something was done, if a bug was available, or work out why the present code is broken. Source control makes this simple.
 `Arrangement:` Having source control enables you to robotize fabricates and organizations. No one ought to ftp records around any longer as that is inclined to human blunder.
@@ -49,7 +50,7 @@ Perforce: https://wiki.jenkins-ci.org/display/JENKINS/Perforce+Plugin
 AccuRev: https://wiki.jenkins-ci.org/display/JENKINS/AccuRev+Plugin
 CVS: https://wiki.jenkins-ci.org/display/JENKINS/CVS+Plugin
 Subversion: https://wiki.jenkins-ci.org/display/JENKINS/Subversion+Plugin
-```
+
 ## 5. How do you schedule a build in Jenkins?
 
 In Jenkins, under the job configuration arrangement, we can characterize different build triggers. Basic discover the 'Build Triggers' segment and check the ' Build Periodically' checkbox. With the occasionally build you can plan the construct definition by the date or day of the week and an opportunity to execute the assembly. The configuration of the 'Schedule' textbox is as per the following:
@@ -57,17 +58,19 @@ In Jenkins, under the job configuration arrangement, we can characterize differe
 MINUTE (0-59), HOUR (0-23), DAY (1-31), MONTH (1-12), DAY OF THE WEEK (0-7)
 
 In the activity design page, we should look down directly to the Build Triggers area. Since we expect to make a direct activity, we should choose the checkbox stamped Build intermittently. When we select this checkbox, a Text Box is shown with the Schedule name. We need to offer some benefit in a Cron-consistent arrangement. There's broad data accessible on the page in the event that we click the question mark next to the textbox.
-```sh
+
 Let’s type */2 * * * * here, which represents an interval of two minutes
 
 ![](./img/4.PNG)
+
 After selecting out of the content box, we can see data directly underneath the container. It enlightens us regarding when will the activity keep running straightaway. How about we spare the activity – in around two minutes, we should see the status of the principal execution of the activity:
+
 ![](./img/5.PNG)
-```
+
 ## 6. What Are The Advantages Of Jenkins?
 
 In the present DevOps world, continuous delivery and deployment are basic to conveying fantastic programming item quicker than any time in recent memory. Jenkins is an open-source persistent incorporation server written in Java. It is by a wide margin the most generally utilized instrument for overseeing constant reconciliation builds and delivery pipelines. It helps engineers in structure and testing programming continuously. It expands the size of mechanization and is rapidly picking up ubiquity in DevOps circles. One of the key points of interest of Jenkins is that it requires little upkeep and has worked in a GUI apparatus for simple updates. Jenkins additionally gives tweaked arrangement as there are more than 400 modules to help to build and to test essentially any venture. By executing the correct setup for you, you get practically prompt input. You will dependably know whether the manufacturer broke. You will become more acquainted with what the explanation behind occupation come up short was and you can likewise become acquainted with how you can return it.
-```sh
+
 Advantages of Jenkins include: 
 
 1. Bugs tracking are simple at a beginning period being developed condition.
@@ -78,16 +81,16 @@ Advantages of Jenkins include:
 6. To advise engineers about build success /failures, it is coordinated with the LDAP mail server.
 7. Accomplishes continuous integration agile development and test driven improvement.
 8. With straightforward advances, the maven release project is automated.
-```
+
 ## 7. What does it mean to shift left in DevOps?
 
 If you somehow managed to diagram the conventional programming development life cycle on a bit of paper, the left half of the chart would almost certainly incorporate tasks, for example, design and development, while the right side would probably incorporate client feedback, stress testing, and production staging. To move left in DevOps infers a longing to take a significant number of those undertakings that regularly occur close to the finish of the application advancement procedure and move them into prior stages. Now and again, this may intend to join static code investigation schedules in each build. Another approach to play out a DevOps move left is to make production-ready artifacts toward the finish of each Agile sprint with the goal that clients and partners can get gradual reports on how improvement is advancing. Proper DevOps means moving left however much as could be expected.
 Shifting left testing in software production allows developers to catch and fix issues earlier.
-```sh
+
 ![](./img/6.PNG)
-```
+
 ## 8. What are the software prerequisites that must be met before Jenkins is installed?
-```sh
+
 `Prerequisites:` Before you continue to introduce Jenkins in your windows framework, there are a few requirements for Jenkins to introduce Jenkins in your PC.
 
 `Hardware requirements: `
@@ -101,18 +104,18 @@ Since Jenkins keeps running on Java, you need either Java Development Kit (JDK) 
 `Long-term support release (LTS):` Long-term support releases are accessible at regular intervals. They are steady and are generally tried. This release is expected for end clients.
 
 `Weekly release:` Weekly release are made accessible consistently by fixing bugs in its prior rendition. These releases are expected towards module engineers. We will utilize the LTS release however the procedure continues as before for Weekly release.
-```
+
 ## 9. How can you move or copy Jenkins from one server to another?
 
 Move a job starting with one installation of Jenkins then onto the next by just duplicating the relating work directory. Make a duplicate of a current job by making a clone of a job directory by an alternate name. Rename a current job by renaming a directory. Note that on the off chance that you change a job name you should change whatever other activity that endeavors to call the renamed job. Those tasks should be possible notwithstanding when Jenkins is running. For changes like these to produce results, you need to click "reload config" to compel Jenkins to reload design from the disk.
-```sh
+
 Follow these steps to move or copy Jenkins from one server to another:
 
 1. Copy the related job directory and move a job from one installation of Jenkins to another.
 2. Make a copy of an already existing job by making a clone of a job directory by a different name.
 3. Renaming an existing job by renaming a directory.
 4. We can also try one of the plug-ins as well as having Job export options like Job Importer Plug-in. Jenkins CLI can be also used if 5 we have less number of jobs but usually at the enterprise level, we have a large number of jobs so not widely used.
-```
+
 ## 10. What is the use of Ansible in Jenkins?
 
 Ansible is an incredible asset for IT automation and can be utilized in a CI/CD procedure to arrangement the target environment and to an application on it. The most effective method to utilize Ansible for environment provisioning and application deployment in a Continuous Integration/Continuous Delivery (CI/CD) process utilizing a Jenkins Pipeline. Jenkins is a notable tool for automation CI/CD. Shell scripts are regularly utilized for provisioning environments or to deploy applications amid the pipeline stream. Despite the fact that this could work, it is bulky to keep up and reuse contents over the long haul.
@@ -120,14 +123,14 @@ Ansible is an incredible asset for IT automation and can be utilized in a CI/CD 
 The motivation behind utilizing Ansible in the pipeline stream is to reuse jobs and Playbooks for provisioning, leaving Jenkins just as a procedure orchestrator rather than a shell script agen
 
 The above  represents the accompanying engineering components:
-```sh
+
 * Github is the place where our project is facilitated and where Jenkins will survey for changes to begin the pipeline stream.
 * SonarSource is our source code analysis server. On the off chance that anything turns out badly amid the examination (for example insufficient unit tests), the stream has interfered. This progression is imperative to ensure the source code quality record.
 * Nexus is the artifact archive. After an effective accumulation, unit tests, and quality examinations, the binaries are transferred into it. Later those binaries will be downloaded by Ansible amid the application deployment.
 * The Ansible Playbook, which is a YAML record coordinated in the application source code, conveys the Spring Boot App onto a CentOS machine.
 * Jenkins is our CI/CD process orchestrator. It is dependable to assemble every one of the pieces, bringing about the application effectively deployed in the target machine.
 ![](./img/14.PNG)
-```
+
 ## 11. Name four important KPI in DevOps.
 
 Individuals utilizing DevOps practices depend on a few key performance indicators(KPIs) to pass judgment on the achievement of their DevOps endeavors:
@@ -155,20 +158,19 @@ For defining a Pipeline in SCM, a Jenkins file is a text file that contains the 
 2. Audit trail for the Pipeline
 3. Single wellspring of truth for the Pipeline, which can be seen and altered by numerous individuals from the undertaking.
 Please find below Pipeline which implements a basic three-stage continuous delivery pipeline:
-
+```
 ![](./img/8.PNG)
 
-```
 ## 14. What do you do to make sure that your project build doesn't break in Jenkins?
 
 We ensure that we perform effective clean introduce on our local machine with all unit tests. At that point, we ensure that we check in all code changes. We do complete a Synchronize with the archive to ensure that all required config and POM changes and any differences are registered with the repository. You have to pursue the underneath referenced strides to ensure that the Project build does not break:
-```sh
+
 * Perfect and successful installation of Jenkins on your local machine with all unit tests.
 * All code changes are reflected effectively.
 * Checking for repository synchronization to ensure that every one of the distinctions and changes identified with config and different settings is spared in the repository.
 
 ![](./img/9.PNG)
-```
+
 There is a build failure analyzer plug-in which tells us a reason for build failure in case the build gets failed even after following the above steps. The module accompanies an empty information base of failure causes. Populating this learning base is finished by utilizing the connection "Failure Cause Management". The connection has appeared if the consent UpdateCauses is set for the current user. Press "Create New" and include a name and a depiction for the Failure Cause. The depiction ought to contain the motivation behind why this build flopped just as potential answers for the build failure.
 
 
@@ -177,7 +179,7 @@ There is a build failure analyzer plug-in which tells us a reason for build fail
 ## 16. Define the triggers in Jenkins.
 
 There are various ways to re-trigger the pipeline in an automated way, triggers are characterized in the Jenkins. A few of pipelines are cooperating with sources like GitHub, BitBucket, or different triggers first then they are actualized to play out a particular activity.
-```sh
+
 A build trigger might be utilized for different purposes relying upon the context of the project.
 
 `For instance:` In the event that an enterprise might want to have a CI/CD pipeline setup utilizing Jenkins. In this case, an organization can set up build triggers to trigger downstream system build, for example, 
@@ -189,7 +191,6 @@ A build trigger might be utilized for different purposes relying upon the contex
 * The above steps will be anchored to the parent work and can be activated one by one or in parallel contingent upon the stage (this is the place where build trigger is utilized, trigger the downstream system build if the parent build is a success).
 * Build occasionally can be utilized to keep running on standard jobs(in the event that we have a team set up which will be deploying master every evening). At that point, we can set up the jobs to build occasionally late night times at a fixed time (additionally the job can be activated dependent on progress as clarified in (1)
 * Polling SCM keeps checking for any new code addition by checking commit history and trigger build thereafter.Pooling your archive and construct dependent on that.
-```
 
 ## 17. Polling a Git repository for new commits is considered a Jenkins anti-pattern. What is a sound alternative to SVN polling?
 
@@ -198,17 +199,17 @@ A continuously checking /monitoring SCM tools like GIT or subversion for identif
 ## 18. How can you move or copy Jenkins from one server to another?
 
 Move a job starting with one installation of Jenkins then onto the next by just duplicating the relating work directory. Make a duplicate of a current job by making a clone of a job directory by an alternate name. Rename a current job by renaming a directory. Note that on the off chance that you change a job name you should change whatever other activity that endeavors to call the renamed job. Those tasks should be possible notwithstanding when Jenkins is running. For changes like these to produce results, you need to click "reload config" to compel Jenkins to reload design from the disk.
-```sh
+
 We can do the steps below to copy Jenkins from the primary server to other servers:
 
 1. As part of the first step, we can start copying and moving Job directory & job name from the primary installation of Jenkins to another one.
 2. We can also start making another copy of the already configured job by cloning job directory by renaming it to a different name.
 3. Renaming already configured job by giving it some other name.
-```
+
 We can also try one of the plug-ins as well as having Job export options like Job Importer Plugin. Jenkins CLI can be also used if we have less number of jobs but usually at the enterprise level, we have a large number of jobs so not widely used.
 
 ## 19. What is the difference between Continuous Integration, Continuous Delivery, and Continuous Deployment?
-```sh
+
 * Continuous integration
 
 CI is DevOps practices where developers regularly integrate code with at regular time interval  The integration is accompanied by build and tests in an automatic way. The automated testing is optional in  CI but it is implied. The biggest advantage of CI is frequent integration which leads to early detection of errors and early remediation. We can work on changes which lead to specific build error or code issue. Since integration was frequent so fixing becomes easier.
@@ -226,7 +227,7 @@ CD is the next step of CI so it can be considered as an extension of continuous 
 This practice is one more step ahead of continuous delivery. The continuous delivery releases changes in production in a controlled way but continuous deployment facilitate the release of changes to production automatically once all changes pass through production pipeline stages successfully. It ensures no human intervention. The feedback loop is much faster if we enable continuous deployment for our project. It supports the theme fast to market. It is similar to continuous delivery but release happens seamlessly.
 
 ![](./img/12.PNG)
-```
+
 ## 20. What is the difference between Maven, Ant, and Jenkins?
 Maven and ANT are classified as build tool but Maven has one additional advantage that it supports project management, dependency management, and standard project layout. Jenkins is a continuous integration tool which is much more superior than a build tool. ANT is the oldest one in a  lot and widely used build tool. A build tool is useful in creating binary artifacts like JAR file or WAR file. We can easily set up continuous delivery pipeline using Jenkins /Hudson which ensures triggering automatic build, test and deploys code base to production. The gang of four ANT,  Maven, Jenkins, and Hudson are tools for building, uni testing, continuous integration and facilitate project management. 
 

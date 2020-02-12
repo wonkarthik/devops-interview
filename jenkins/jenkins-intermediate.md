@@ -22,26 +22,38 @@ Continuous Integration has numerous advantages:
 Here is a rundown of the main 8 Continuous Integration tools:
 
 `Jenkins`: Jenkins is an open-source CI tool written in Java.
+
 `TeamCity:` TeamCity is the full-grown CI server, originating from the labs of the JetBrains organization. Incredible arrangement by and large, however because of its intricacy and value, more qualified for big business needs.
+
 `Travis CI:` A Mature arrangement that offers both facilitated and On-premises variations, cherished and utilized by numerous groups, very much reported.
+
 `Go CD:` Go is the most up to date Cruise Control manifestation from the ThoughtWorks organization. Barring the business bolster that ThoughtWorks offers, Go is for nothing out of pocket. It is accessible for Windows, Mac, and different Linux circulations.
+
 `Bamboo:` It is Atlassian offerings.Great On-premises CI instrument that initially offered Cloud arrangement as well. Bitbucket Pipelines supplanted the cloud arrangement. A Pipeline is a cutting edge and quick cloud CI instrument incorporated into Bitbucket. Has a free preliminary for 30 days, and paid plans after that.
+
 `GitLab CI:` GitLab CI is a fundamental piece of the open-source Rails venture GitLab, which was exposed by the organization GitLab inc
+
 `CircleCI:` Another cloud elective that originates from the organization with a similar name. CircleCI as of now just backings GitHub and the rundown of upheld dialects incorporates Java, Ruby/Rails, Python, Node.js, PHP, Haskell, and Scala.
+
 `Codeship:` Codeship comes in two unique variants: Basic and Pro. The fundamental form offers out-of-the-container Continuous Integration administration yet doesn't have docker backing and its principal intention is to construct applications with normal work processes through the UI. Star form offers greater adaptability and docker support.
 
 ## 4. Which SCM tools Jenkins supports?
 SCM stands for Source Code Management is an integral part of any development project in the current IT world. It is very critical to manage source code in an efficient way. There are several SCM tools which are available. Some advantages of using SCM:
 
 `Backups:` Always accept that your PC is going to be sucked into a monstrosity dark opening at any second and work to limit the misfortune from that. Source control enables you to effortlessly push finished work to a remote host so little work is lost with a solitary PC.
+
 `Record of work:` On numerous ventures, there's intermittently when you need to return the code to a past state to perceive how something was done, if a bug was available, or work out why the present code is broken. Source control makes this simple.
+
 `Arrangement:` Having source control enables you to robotize fabricates and organizations. No one ought to ftp records around any longer as that is inclined to human blunder.
+
 `Forming:` It's anything but difficult to swap between renditions of your code, giving you a chance to switch between fixing a little bug underway and thoroughly reworking your key usefulness.
+
 `Simple venture setup:` As a task's source code can likewise incorporate arrangement contents, introduce records, and so forth… at that point setting up an undertaking can be as simple as cloning the storehouse and running a few contents to set up a domain that is indistinguishable from every single other designer.
+
 Jenkins underpins AccuRev, CVS, Subversion, Git, Mercurial, Perforce, ClearCase and RTC. For every one of them exists a module and as you likely definitely know, Jenkins isn't constrained to just that rundown, anybody can make an SCM module for different choices on the off chance that they need to.
 
 Here is the connection to the modules: 
-
+```sh
 ClearCase: https://wiki.jenkins-ci.org/display/JENKINS/ClearCase+Plugin
 RTC: https://wiki.jenkins-ci.org/display/JENKINS/Team+Concert+Plugin
 Git: https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin
@@ -50,7 +62,7 @@ Perforce: https://wiki.jenkins-ci.org/display/JENKINS/Perforce+Plugin
 AccuRev: https://wiki.jenkins-ci.org/display/JENKINS/AccuRev+Plugin
 CVS: https://wiki.jenkins-ci.org/display/JENKINS/CVS+Plugin
 Subversion: https://wiki.jenkins-ci.org/display/JENKINS/Subversion+Plugin
-
+```
 ## 5. How do you schedule a build in Jenkins?
 
 In Jenkins, under the job configuration arrangement, we can characterize different build triggers. Basic discover the 'Build Triggers' segment and check the ' Build Periodically' checkbox. With the occasionally build you can plan the construct definition by the date or day of the week and an opportunity to execute the assembly. The configuration of the 'Schedule' textbox is as per the following:
